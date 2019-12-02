@@ -117,9 +117,9 @@ Once we have the models trained and evaluated, here, we analyze and compare the 
 ![](figs/wordclouds/wcloud_model2.png)
 
 
-# IMDB Reviews dataset Automated WordCloud Generation using NLP Models
+# NLP Models on Tweets Multi-class sentiment dataset
 
-Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with three labels (Pleasant, UnPleasant, Neutral). **Since the Model1 gave one of the best results, so to avoid redundancy, we only trained and evaluated Model1 on Tweets dataset.** Following graphs show Model1 training loss and training accuracy graphs first on Tweets dataset.
+Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labels (Pleasant, UnPleasant, Neutral). **Since the Model1 gave one of the best results, so to avoid redundancy, we only trained and evaluated Model1 on Tweets dataset.** Following graphs show the Model1 training loss and training accuracy graphs first on Tweets dataset.
 
 
 
