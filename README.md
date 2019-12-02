@@ -63,12 +63,17 @@ This is the first NLP based model for sentiment analysis task. It consists of Re
 ![](figs/the_baseline2.png)
 
 
+
 **2) Bi-grams embedding Based (aka Model1)**
+
+This model works similar to the above, except it uses **Global Average Pooling** insted of RNN nodes. Consequently, it works faster and detailed in this paper.
 
 ![](figs/bigrams_model.png)
 
 
 **3) Convolutional Neural Network (CNN) Based (aka Model2)**
+
+This model uses convolutional neural network (CNN) absed approach instead of conventional NLP/RNN method. But still very effective as shown in the evaluation and performance section later.
 
 ![](figs/cnn_model.png)
 
