@@ -58,7 +58,7 @@ Next, we briefly explain these three models and their training and evalaution de
 
 **1) Recurrent Neural Network (RNN) Based (aka The Baseline)**
 
-This is the first NLP based model for sentiment analysis task. It consists of Recurrent Neural Network (RNN) based nodes with learnable parameters. First, each word is vectorized using a dictionary vector, followed by passing through the 
+This is the first NLP based model for sentiment analysis task. It consists of Recurrent Neural Network (RNN) based nodes with learnable parameters. First, each word is vectorized using a dictionary vector, followed by passing through the 100-D per word embedding layer. Then, we have RNN nodes, outputting hidden state (next layer input). Finally, the last hidden state output passes through the fully connected (FC) layer to yield the sentiment result.
 
 ![](figs/the_baseline2.png)
 
