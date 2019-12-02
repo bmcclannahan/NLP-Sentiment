@@ -55,7 +55,7 @@ For sentiment analysis modeling, we have employed three deep NLP based models, a
 
 Next, we briefly explain these three models and their training details.
 
-![](figs/the_baseline.png)
+![](figs/the_baseline.pn)
 
 ![](figs/bigrams_model.png)
 
