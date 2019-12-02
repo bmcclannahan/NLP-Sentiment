@@ -97,7 +97,11 @@ Their evaluation details are as follows:
 **As shown above, the baseline is not doing very good in training and testing phases. Model1 and Model2 shine with good accuracy and other evaluation metrics. The code and other details for these three models are given separately in three notebooks in the /notebooks/sentiment_prediction/Reviews_Dataset directory.**
 
 
-# NLP Models Generated WordCloud on IMDB Reviews Binary sentiment dataset
+# IMDB Reviews dataset AUtomated WordCloud Generation using NLP Models
+
+Once we have the models trained and evaluated, here, we analyze and compare the **word cloud** for both sentiments (Positive, Negative) with the ground truth word cloud for both sentiments. Each row below shows comparison of **ground truth word cloud and our three NLP models** respectively.
+
+
 
 
 
