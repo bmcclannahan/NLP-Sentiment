@@ -39,13 +39,13 @@ This readme first goes through the sentiment analysis part, followed by discussi
 We have used two datasets for seniment analysis task. 
 
 <ul>
-<li>IMDB reviews daaset with binaly sentiment labels (Positive, Negative reviews)</li>
+<li>IMDB reviews dataset with binaly sentiment labels (Positive, Negative reviews)</li>
 <li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPLeasant, Neutral)</li>
 </ul>
 
 **DEPLOYED NLP MODELS**
 
-For sentiment analysis modeling, we have employed three deep NLP based models, as follows:
+For sentiment analysis modeling, we have employed **three deep NLP** based models, as follows:
 
 <ul>
 <li>Recurrent Neural Network (RNN) Based (aka The Baseline)</li>
@@ -53,9 +53,9 @@ For sentiment analysis modeling, we have employed three deep NLP based models, a
 <li>Convolutional Neural Network (CNN) Based (aka Model2)</li>
 </ul>
 
-Next, we briefly explain these three models and their training details.
+Next, we briefly explain these three models and their training and evalaution details.
 
-![](figs/the_baseline.png)
+![](figs/the_baseline1.png)
 
 ![](figs/bigrams_model.png)
 
