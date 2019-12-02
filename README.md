@@ -102,7 +102,7 @@ Their evaluation details are as follows:
 Once we have the models trained and evaluated, here, we analyze and compare the **word cloud** for both sentiments (Positive, Negative) with the ground truth word cloud for both sentiments. Each row below shows comparison of **ground truth word cloud and our three NLP models** respectively.
 
 
-![](figs/wordclouds/wcloud_baseline.png)
+![](figs/wordclouds/wcloud_baseline1.png)
 
 
 
