@@ -54,7 +54,7 @@ For sentiment analysis modeling, we have employed **three deep NLP** based model
 </ul>
 
 
-Next, we briefly explain these three models and their training and evalaution details.
+Next, we briefly explain these three models and their training and evaluation details.
 
 **1) Recurrent Neural Network (RNN) Based (aka The Baseline)**
 
@@ -115,6 +115,13 @@ Once we have the models trained and evaluated, here, we analyze and compare the 
 **3) Convolutional Neural Network (CNN) Based (aka Model2)**
 
 ![](figs/wordclouds/wcloud_model2.png)
+
+
+# IMDB Reviews dataset Automated WordCloud Generation using NLP Models
+
+Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with three labels (Pleasant, UnPleasant, Neutral). **Since the Model1 gave one of the best results, so to avoid redundancy, we only trained and evaluated Model1 on Tweets dataset.** Following graphs show Model1 training loss and training accuracy graphs first on Tweets dataset.
+
+
 
 
 
