@@ -83,3 +83,11 @@ This model uses convolutional neural network (CNN) absed approach instead of con
 IMDB Reviews dataset is a binary sentiment dataset with two labels (Positive, Negative). Above three NLP models are trained and evaluated on IMDB Reviews dataset separately. Following graphs show their training loss and training accuracy graphs first one by one.
 
 
+![](figs/train_graphs/baseline_train.png)
+
+![](figs/train_graphs/model1_train.png)
+
+![](figs/train_graphs/model2_train.png)
+
+
+
