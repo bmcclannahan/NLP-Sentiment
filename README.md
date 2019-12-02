@@ -90,4 +90,11 @@ IMDB Reviews dataset is a binary sentiment dataset with two labels (Positive, Ne
 ![](figs/train_graphs/model2_train.png)
 
 
+Their evaluation details are as follows:
+
+![](figs/train_graphs/eval_test.png)
+
+
+
+
 
