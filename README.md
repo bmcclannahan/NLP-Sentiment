@@ -57,6 +57,7 @@ Next, we briefly explain these three models and their training details.
 
 ![](figs/the_baseline.png)
 
+![](figs/bigram_model.png)
 
 ![](figs/cnn_model.png)
 
