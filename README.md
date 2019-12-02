@@ -39,8 +39,8 @@ This readme first goes through the sentiment analysis part, followed by discussi
 We have used two datasets for seniment analysis task. 
 
 <ul>
-<li>IMDB reviews dataset with binaly sentiment labels (Positive, Negative reviews)</li>
-<li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPLeasant, Neutral)</li>
+<li>IMDB Reviews dataset with binary sentiment labels (Positive, Negative reviews)</li>
+<li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPleasant, Neutral)</li>
 </ul>
 
 **DEPLOYED NLP MODELS**
@@ -58,7 +58,9 @@ Next, we briefly explain these three models and their training and evalaution de
 
 **1) Recurrent Neural Network (RNN) Based (aka The Baseline)**
 
-![](figs/the_baseline1.png)
+This is the first NLP based model for sentiment analysis task. It consists of Recurrent Neural Network (RNN) based nodes with learnable parameters. First, each word is vectorized using a dictionary vector, followed by passing through the 
+
+![](figs/the_baseline2.png)
 
 
 **2) Bi-grams embedding Based (aka Model1)**
