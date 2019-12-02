@@ -102,13 +102,17 @@ Their evaluation details are as follows:
 Once we have the models trained and evaluated, here, we analyze and compare the **word cloud** for both sentiments (Positive, Negative) with the ground truth word cloud for both sentiments. Each two rows below shows the comparison of **ground truth word cloud and our three NLP models** respectively.
 
 
+**1) Recurrent Neural Network (RNN) Based (aka The Baseline)**
+
 ![](figs/wordclouds/wcloud_baseline1.png)
 
 
+**2) Bi-grams embedding Based (aka Model1)**
 
 ![](figs/wordclouds/wcloud_model1.png)
 
 
+**3) Convolutional Neural Network (CNN) Based (aka Model2)**
 
 ![](figs/wordclouds/wcloud_model2.png)
 
