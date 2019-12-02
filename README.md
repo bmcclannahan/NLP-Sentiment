@@ -24,7 +24,11 @@ Project Organization
 
 # Project Objective
 
-This project aims to develop the 1) **binary and multi-class sentiment analysis** and 2) **Movie Recommendation system**.
+This project aims at developing following two systems:
+
+1) **binary and multi-class sentiment analysis** and 
+
+2) **Movie Recommendation system**.
 
 This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part.
 
