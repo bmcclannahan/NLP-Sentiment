@@ -30,10 +30,23 @@ This readme first goes through the sentiment analysis part, followed by discussi
 
 # Binary and Multi-class Sentiment Analysis System
 
-For sentiment analysis modeling, we have developed three deep NLP based models, as follows:
+**Used Datasets**
+
+We have used two datasets for seniment analysis task. 
 
 <ul>
-<li>
-    
- </li>
+<li>IMDB reviews daaset with binaly sentiment labels (Positive, Negative reviews)</li>
+<li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPLeasant, Neutral)</li>
 </ul>
+
+**DEPLOYED NLP MODELS**
+
+For sentiment analysis modeling, we have employed three deep NLP based models, as follows:
+
+<ul>
+<li>Recurrent Neural Network (RNN) Based (aka The Baseline)</li>
+<li>Bi-grams embedding Based (aka Model1)</li>
+<li>Convolutional Neural Network (CNN) Based (aka Model2)</li>
+</ul>
+
+
