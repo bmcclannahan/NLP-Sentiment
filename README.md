@@ -53,4 +53,10 @@ For sentiment analysis modeling, we have employed three deep NLP based models, a
 <li>Convolutional Neural Network (CNN) Based (aka Model2)</li>
 </ul>
 
+Next, we briefly explain these three models and their training details.
+
+![](figs/the_baseline.png)
+
+
+![](figs/cnn_model.png)
 
