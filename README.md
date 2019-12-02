@@ -55,9 +55,15 @@ For sentiment analysis modeling, we have employed **three deep NLP** based model
 
 Next, we briefly explain these three models and their training and evalaution details.
 
+**1) Recurrent Neural Network (RNN) Based (aka The Baseline)**
+
 ![](figs/the_baseline1.png)
 
+**2) Bi-grams embedding Based (aka Model1)**
+
 ![](figs/bigrams_model.png)
+
+**3) Convolutional Neural Network (CNN) Based (aka Model2)**
 
 ![](figs/cnn_model.png)
 
