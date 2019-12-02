@@ -94,6 +94,10 @@ Their evaluation details are as follows:
 
 ![](figs/train_graphs/eval_test.png)
 
+**As shown above, the baseline is not doing very good in training and testing phases. Model1 and Model2 shine with good accuracy and other evaluation metrics. The code and other details for these three models are given separately in three notebooks in the /notebooks/sentiment_prediction/Reviews_Dataset directory.**
+
+
+# NLP Models Generated WordCloud on IMDB Reviews Binary sentiment dataset
 
 
 
