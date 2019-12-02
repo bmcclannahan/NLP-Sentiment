@@ -127,5 +127,11 @@ Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labe
 
 **Model1 again gives reasonable acurracy, precision, and recall values of 92.51%, 0.93 and 0.93 respectively. The code and other details for this Model1 are given in the notebook in the /notebooks/sentiment_prediction/Tweets_Dataset directory.**
 
+**Word Cloud** for all three sentiment labels are shown below and also being compared with their ground truth in each of the below row.
+
+
+![](figs/wordclouds/wcloud_model1_tweets.png)
+
+
 
 
