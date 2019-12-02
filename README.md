@@ -1,4 +1,4 @@
-# NLP-Sentiment
+# NLP-Sentiment and Recommendation System (Final Project for EECS-731 Data Science)
 
 Sentiment Analysis using Natural Language Processing
 
@@ -20,3 +20,5 @@ Project Organization
     │   └── figures                 <- Generated graphics and figures to be used in reporting
 
 --------
+
+
