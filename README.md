@@ -15,7 +15,7 @@ Project Organization
     │
     ├── notebooks                   <- Jupyter notebooks. Naming convention is a number (for ordering),
     │   └── sentiment_prediction    <- Sentiment prediction
-    |
+    |   
     ├── reports                     <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures                 <- Generated graphics and figures to be used in reporting
 
