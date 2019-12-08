@@ -84,12 +84,9 @@ NLP Models on IMDB Reviews Binary sentiment dataset
 
 IMDB Reviews dataset is a binary sentiment dataset with two labels (Positive, Negative). Above three NLP models are trained and evaluated on IMDB Reviews dataset separately. Following graphs show their training loss and training accuracy graphs first one by one.
 
-
-![baseline_train](figs/train_graphs/baseline_train.png)
-
-![model1_train](figs/train_graphs/model1_train.png)
-
-![model2_train](figs/train_graphs/model2_train.png)
+<img src="figs/train_graphs/baseline_train.png" width="700">
+<img src="figs/train_graphs/model1_train.png" width="700">
+<img src="figs/train_graphs/model2_train.png" width="700">
 
 Their evaluation details are as follows:
 
