@@ -15,6 +15,9 @@ Project Organization
     │
     ├── notebooks                   <- Jupyter notebooks. Naming convention is a number (for ordering),
     │   └── sentiment_prediction    <- Sentiment prediction
+    |   └── recommendation          <- Recommendation system
+    |   └── visualization_notebooks <- Visualization Notebooks
+    ├── models                      <- Trained and serialized models, model predictions, or model summaries
     |   
     ├── reports                     <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures                 <- Generated graphics and figures to be used in reporting
@@ -95,7 +98,7 @@ IMDB Reviews dataset is a binary sentiment dataset with two labels (Positive, Ne
 
 Their evaluation details are as follows:
 
-![eval_test](figs/train_graphs/eval_test.png)
+<img src="figs/train_graphs/eval_test.png" width="550">
 
 **As shown above, the baseline is not doing very good in training and testing phases. Model1 and Model2 shine with good accuracy and other evaluation metrics. The code and other details for these three models are given separately in three notebooks in the /notebooks/sentiment_prediction/Reviews_Dataset directory.**
 
@@ -105,17 +108,17 @@ IMDB Reviews dataset Automated WordCloud Generation using NLP Models
 Once we have the models trained and evaluated, here, we analyze and compare the **word cloud** for both sentiments (Positive, Negative) with the ground truth word cloud for both sentiments. Each two rows below shows the comparison of **ground truth word cloud and our three NLP models** respectively.
 
 <ol>
-<li>1) Recurrent Neural Network (RNN) Based (aka The Baseline)</li>
+<li>Recurrent Neural Network (RNN) Based (aka The Baseline)</li>
 
 ![wcloud_baseline1](figs/wordclouds/wcloud_baseline1.png)
 
 
-<li>2) Bi-grams embedding Based (aka Model1)</li>
+<li>Bi-grams embedding Based (aka Model1)</li>
 
 ![wcloud_model1](figs/wordclouds/wcloud_model1.png)
 
 
-<li>3) Convolutional Neural Network (CNN) Based (aka Model2)</li>
+<li>Convolutional Neural Network (CNN) Based (aka Model2)</li>
 
 ![wcloud_model2](figs/wordclouds/wcloud_model2.png)
 </ol>
