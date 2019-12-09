@@ -48,7 +48,7 @@ We have used two datasets for seniment analysis task.
 <li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPleasant, Neutral)</li>
 </ul>
 
-### DEPLOYED NLP MODELS
+### Deployed NLP Models
 
 For sentiment analysis modeling, we have employed **three deep NLP** based models, as follows:
 
@@ -123,3 +123,20 @@ Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labe
 **Word Cloud** for all three sentiment labels are shown below and also being compared with their ground truth in each of the below row.
 
 <img src="figs/wordclouds/wcloud_model1_tweets.png" width="700">
+
+Recommendation System
+------------
+
+First, we scraped **omdbapi API** do derive more features for the recommendation system.
+API link: http://www.omdbapi.com/
+**omdbapi API** is an open API, which provides a dataset of IMDB movies with numerous features. We have selected **genres** and **ratings** as these features made more sense than the features like - say **language**. As shown in the following diagram, it doesn't make much sense to select language as there are far more English movies as compared to other languages.
+
+<img src="figs/recommendation/languages.PNG" width="700">
+
+We used following three models for the movie recommendation system.
+
+<ul>
+<li>K-means clustering</li>
+<li>Agglomerative clustering</li>
+<li>dbscan clustering</li>
+</ul>
