@@ -48,6 +48,55 @@ We have used two datasets for seniment analysis task.
 <li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPleasant, Neutral)</li>
 </ul>
 
+For the sentiment analysis part, we have used **two** approaches.
+<ul>
+<li> Machine learning approach
+<li> Deployed NLP Models
+</ul>
+
+### Machine learning approach
+
+There are two models used for sentiment analysis and classification under normal machine learning approach
+<ul>
+<li> Random Forest
+<li> Logistic regression
+</ul>
+
+#### Random Forest
+Random Forest is the collection of many decision trees where at each candidate split in the learning process, a random subset of the features is taken. We have used this techinque to see the overall important words for classification of sentiments.
+
+#### Logistic Regression
+Logistic Regression is one of the effective model for linear classification problems. Logistic regression provides the weights of each features that are responsible for discriminating each class.
+
+Below are the word cloud visualization for IMDB datasets using Random Forest and Logistic Regression.
+<img src="reports/wordcloud/wordcloudafterclassifier.png" width="200">
+
+**Important words for sentiment classification.**
+
+<img src="reports/wordcloud/wordcloudLogRegressionPos.png" width="200">
+
+**Important words for positive class.**
+
+<img src="reports/wordcloud/wordcloudLogRegressionNeg.png" width="200">
+
+**Important words for negative class.**
+
+
+Below are the word cloud visualization for twitter using Logistic Regression.
+
+<img src="reports/wordcloudTwitter/neturalBalanced.png" width="200">
+
+**Important words for neutral class.**
+
+<img src="reports/wordcloudTwitter/pleasantBalanced.png" width="200">
+
+**Important words for pleasant class.**
+
+<img src="reports/wordcloudTwitter/unpleasantBalanced.png" width="200">
+
+**Important words for unpleasant class.**
+
+
 ### Deployed NLP Models
 
 For sentiment analysis modeling, we have employed **three deep NLP** based models, as follows:
