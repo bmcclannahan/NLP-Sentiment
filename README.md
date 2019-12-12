@@ -35,15 +35,18 @@ The goal of this project is as follows:
 
 This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part. Overall outline of the project is given as follows:
 
+
 <img src="figs/outline.png" width="800">
+
 
 
 Binary and Multi-class Sentiment Analysis System
 ------------
 
+
 ### Used Datasets
 
-We have used two datasets for seniment analysis task. 
+We have used two datasets for sentiment analysis task. 
 
 <ul>
 <li>IMDB Reviews dataset with binary sentiment labels (Positive, Negative reviews) [3]</li>
