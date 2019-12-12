@@ -130,6 +130,13 @@ This model uses convolutional neural network (CNN) absed approach instead of con
 
 <img src="figs/cnn_model.png" width="700">
 
+NLP Models Hyper-Parameters
+------------
+
+ALl three NLP models (Baseline, AvgNet, CNet) have been trained using pre-defined **hyper-paramters** as listed in following table. It may be noted that these hyper-parameters have been selected after performing several **ablation experiments using orthogonalization process**.
+
+<img src="figs/train_graphs/hyper_params.png" width="600">
+
 NLP Models on IMDB Reviews Binary sentiment dataset
 ------------
 
