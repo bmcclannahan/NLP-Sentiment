@@ -1,6 +1,5 @@
 # NLP-Sentiment and Recommendation System (Final Project for EECS-731 Data Science)
 
-### Sentiment Analysis using Natural Language Processing
 
 Project Organization
 ------------
@@ -30,11 +29,14 @@ Project Objective
 
 The goal of this project is as follows:
 
-1) **binary and multi-class sentiment analysis** and 
+1) **Binary and multi-class sentiment analysis** and 
 
 2) **Movie Recommendation system**.
 
-This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part.
+This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part. Overall outline of the project is given as follows:
+
+<img src="figs/outline.png" width="700">
+
 
 Binary and Multi-class Sentiment Analysis System
 ------------
@@ -139,7 +141,7 @@ IMDB Reviews dataset is a binary sentiment dataset with two labels (Positive, Ne
 
 Their evaluation details are as follows:
 
-<img src="figs/train_graphs/eval_test.png" width="550">
+<img src="figs/train_graphs/eval_test_both.png" width="550">
 
 #### As shown above, the baseline is not doing very good in training and testing phases. Model1 and Model2 shine with good accuracy and other evaluation metrics. The code and other details for these three models are given separately in three notebooks in the /notebooks/sentiment_prediction/Reviews_Dataset directory.
 
@@ -189,3 +191,16 @@ We used following three models for the movie recommendation system.
 <li>Agglomerative clustering</li>
 <li>dbscan clustering</li>
 </ul>
+
+References
+------------
+
+[1] https://arxiv.org/pdf/1607.01759.pdf
+
+[2] https://arxiv.org/pdf/1408.5882.pdf
+
+[3] https://ai.stanford.edu/~amaas/data/sentiment/
+
+[4] https://github.com/bentrevett/pytorch-sentiment-analysis
+
+[5] https://github.com/tlkh/text-emotion-classification
