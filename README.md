@@ -35,7 +35,7 @@ The goal of this project is as follows:
 
 This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part. Overall outline of the project is given as follows:
 
-<img src="figs/outline.png" width="700">
+<img src="figs/outline.png" width="800">
 
 
 Binary and Multi-class Sentiment Analysis System
@@ -46,8 +46,8 @@ Binary and Multi-class Sentiment Analysis System
 We have used two datasets for seniment analysis task. 
 
 <ul>
-<li>IMDB Reviews dataset with binary sentiment labels (Positive, Negative reviews)</li>
-<li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPleasant, Neutral)</li>
+<li>IMDB Reviews dataset with binary sentiment labels (Positive, Negative reviews) [3]</li>
+<li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPleasant, Neutral) [5]</li>
 </ul>
 
 For the sentiment analysis part, we have used **two** approaches.
@@ -120,13 +120,13 @@ This is the first NLP based model for sentiment analysis task. It consists of Re
 
 #### 2. Your Average Sentiment Network (aka AvgNet)
     
-This model works similar to the above, except it uses **Global Average Pooling** insted of RNN nodes. Consequently, it works faster and detailed in this paper.
+This model works similar to the above, except it uses **Global Average Pooling** insted of RNN nodes. Consequently, it works faster and detailed in this paper [1].
 
 <img src="figs/bigrams_model.png" width="700">
 
 #### 3. Convolutional Neural Network (CNN) Based (aka CNet)
 
-This model uses convolutional neural network (CNN) absed approach instead of conventional NLP/RNN method. But still very effective as shown in the evaluation and performance section later.
+This model uses convolutional neural network (CNN) absed approach instead of conventional NLP/RNN method. But still very effective as shown in the evaluation and performance section later. This model has been taken from this paper [2].
 
 <img src="figs/cnn_model.png" width="700">
 
