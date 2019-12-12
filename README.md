@@ -105,8 +105,8 @@ For sentiment analysis modeling, we have employed **three deep NLP** based model
 
 <ol>
 <li>Recurrent Neural Network (RNN) Based (aka The Baseline)</li>
-<li>Bi-grams embedding Based (aka Model1)</li>
-<li>Convolutional Neural Network (CNN) Based (aka Model2)</li>
+<li>Your Average Sentiment Network (aka AvgNet)</li>
+<li>Convolutional Neural Network (CNN) Based (aka CNet)</li>
 </ol>
 
 
@@ -118,13 +118,13 @@ This is the first NLP based model for sentiment analysis task. It consists of Re
 
 <img src="figs/the_baseline2.png" width="700">
 
-#### 2. Bi-grams embedding Based (aka Model1)
+#### 2. Your Average Sentiment Network (aka AvgNet)
     
 This model works similar to the above, except it uses **Global Average Pooling** insted of RNN nodes. Consequently, it works faster and detailed in this paper.
 
 <img src="figs/bigrams_model.png" width="700">
 
-#### 3. Convolutional Neural Network (CNN) Based (aka Model2)
+#### 3. Convolutional Neural Network (CNN) Based (aka CNet)
 
 This model uses convolutional neural network (CNN) absed approach instead of conventional NLP/RNN method. But still very effective as shown in the evaluation and performance section later.
 
@@ -141,9 +141,9 @@ IMDB Reviews dataset is a binary sentiment dataset with two labels (Positive, Ne
 
 Their evaluation details are as follows:
 
-<img src="figs/train_graphs/eval_test_both.png" width="550">
+<img src="figs/train_graphs/eval_test_both.png" width="600">
 
-#### As shown above, the baseline is not doing very good in training and testing phases. Model1 and Model2 shine with good accuracy and other evaluation metrics. The code and other details for these three models are given separately in three notebooks in the /notebooks/sentiment_prediction/Reviews_Dataset directory.
+#### As shown above, the baseline is not doing very good in training and testing phases. AvgNet and CNet shine with good accuracy and other evaluation metrics. The code and other details for these three models are given separately in three notebooks in the /notebooks/sentiment_prediction/Reviews_Dataset directory.
 
 IMDB Reviews dataset Automated WordCloud Generation using NLP Models
 ------------
@@ -154,22 +154,22 @@ Once we have the models trained and evaluated, here, we analyze and compare the 
 
 <img src="figs/wordclouds/wcloud_baseline1.png" width="700">
 
-#### Bi-grams embedding Based (aka Model1)
+#### Your Average Sentiment Network (aka AvgNet)
 
 <img src="figs/wordclouds/wcloud_model1.png" width="700">
 
-#### Convolutional Neural Network (CNN) Based (aka Model2)
+#### Convolutional Neural Network (CNN) Based (aka CNet)
 
 <img src="figs/wordclouds/wcloud_model2.png" width="700">
 
 NLP Models on Tweets Multi-class sentiment dataset
 ------------
 
-Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labels (Pleasant, UnPleasant, Neutral). **Since the Model1 gave one of the best results, so to avoid redundancy, we only trained and evaluated Model1 on Tweets dataset.** Following graphs show the Model1 training loss and training accuracy graphs first on Tweets dataset.
+Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labels (Pleasant, UnPleasant, Neutral). **Since the AvgNet gave one of the best results, so to avoid redundancy, we only trained and evaluated AvgNet on Tweets dataset.** Following graphs show the AvgNet training loss and training accuracy graphs first on Tweets dataset.
 
 <img src="figs/train_graphs/model1_train_tweets.png" width="700">
 
-#### Model1 again gives reasonable acurracy, precision, and recall values of 92.51%, 0.93 and 0.93 respectively. The code and other details for this Model1 are given in the notebook in the /notebooks/sentiment_prediction/Tweets_Dataset directory.
+#### AvgNet again gives reasonable acurracy, precision, and recall values of 92.51%, 0.93 and 0.93 respectively. The code and other details for this AvgNet are given in the notebook in the /notebooks/sentiment_prediction/Tweets_Dataset directory.
 
 **Word Cloud** for all three sentiment labels are shown below and also being compared with their ground truth in each of the below row.
 
